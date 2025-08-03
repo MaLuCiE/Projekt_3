@@ -17,9 +17,9 @@ $ pip3 install -r requirements.txt
 
 ## Spuštění projektu
 
-Pro správné spuštění skriptu je třeba spustit soubor `projekt_3.py` se dvěma povinnými argumenty.
+Pro správné spuštění skriptu je třeba spustit soubor `main.py` se dvěma povinnými argumenty.
 
-`python projekt_3.py <odkaz-uzemniho-celku> <vysledny-soubor>`
+`python main.py <odkaz-uzemniho-celku> <vysledny-soubor>`
 
 Následně se stáhnou data ze zadaného odkazu a uloží se do souboru s příponou `.csv`.
 
@@ -32,7 +32,7 @@ Výsledky hlasování pro kraj Moravskoslezský okres Frýdek-Místek:
 
 Spuštění programu:
 
-`python projekt_3.py "[https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102]" "volby_2017_vysledky_Frydek_Mistek"`
+`python main.py "[https://www.volby.cz/pls/ps2017nss/ps32?xjazyk=CZ&xkraj=14&xnumnuts=8102]" "volby_2017_vysledky_Frydek_Mistek"`
 
 Průběh programu:
 ```
