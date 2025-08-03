@@ -1,3 +1,6 @@
 requests~=2.27.1
-bs4~=0.0.1
-beautifulsoup4~=4.10.0
+bs4~=4.0.0
+pip~=25.2
+beautifulsoup4~=4.13.4
+soupsieve~=2.7
+typing-extensions~=4.14.1
